@@ -1,5 +1,6 @@
 :root {
     --primary-color: #6c63ff;
+    --secondary-color: #f9f7fe;
     --heading-font-family: 'Playfair Display', serif;
     --default-font-family: 'Poppins', sans-serif;
 }
@@ -28,7 +29,7 @@ p {
 }
 
 .hero {
-    background-color: #f9f7fe;
+    background-color: var(--secondary-color);
     text-align: center;
     padding: 160px 0;
 }
@@ -41,7 +42,6 @@ p {
 }
 
 .hero h2 {
-    font-family: 'Poppins', sans-serif;
     font-weight: normal;
     font-size: 24px;
     line-height: 2;
