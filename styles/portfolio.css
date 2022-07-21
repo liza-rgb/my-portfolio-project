@@ -57,7 +57,7 @@ p {
 }
 
 .content-container {
-    padding: 160px 20px;
+    padding: 160px 20px 10px;
 }
 
 .content {
@@ -114,6 +114,7 @@ p {
     background-color: var(--secondary-color);
     padding: 50px 120px;
     border-radius: 20px;
+    margin-top: 60px;
 }
 
 .contact-section p {
@@ -122,6 +123,7 @@ p {
 
 .contact-button {
     text-align: end;
+    margin-top: 2.5rem;
 }
 
 .logo {
@@ -155,6 +157,36 @@ nav li.active a {
     color: var(--primary-color);
 }
 
+footer {
+    margin: 60px 0;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+}
+
+footer .email-link:hover {
+    color: var(--primary-color);
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-size: 18px;
+    padding: 10px 14px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+
+}
+
 #profile-picture {
     border-radius: 40px;
 }
@@ -184,12 +216,20 @@ nav li.active a {
     }
 
     .contact-section {
-        margin: 10px 0px;
         padding: 30px 20px;
+        text-align: center;
+    }
+
+    .contact-section h4 {
+        font-size: 30px;
     }
 
     .contact-button {
         text-align: center;
-        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    footer .email-link {
+        font-size: 1.2em;
     }
 }
