@@ -37,6 +37,10 @@ p {
     line-height: 30px;
 }
 
+a {
+    color: var(--primary-color);
+}
+
 .hero {
     background-color: var(--secondary-color);
     text-align: center;
@@ -189,10 +193,6 @@ footer .social-links a:hover {
     color: #fff;
     background-color: var(--primary-color);
 
-}
-
-.credentials a {
-    color: var(--primary-color);
 }
 
 #profile-picture {
