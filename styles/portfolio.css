@@ -114,6 +114,10 @@ a {
     padding: 90px 60px;
 }
 
+.project-description .btn {
+    margin-right: 20px;
+}
+
 .container {
     margin-bottom: 50px;
 }
@@ -256,8 +260,8 @@ footer .social-links a:hover {
         padding: 0 60px;
     }
 
-    .btn-branding,
-    .btn-branding-outline {
+    .project-description .btn {
         padding: 15px 10px;
+        margin-bottom: 10px;
     }
 }
