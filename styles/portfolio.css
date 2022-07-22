@@ -180,6 +180,27 @@ nav li.active a {
     color: var(--primary-color);
 }
 
+.eye {
+    display: flex;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 35px;
+    left: 27.5px;
+    background-color: #09E8B5;
+    border-radius: 50%;
+}
+
+.eye::after {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    left: 2.5px;
+    background-color: #000;
+    border-radius: 50%;
+    content: ' ';
+}
+
 footer {
     margin: 60px 0 40px;
 }
@@ -267,7 +288,7 @@ footer .social-links a:hover {
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
 
     .project-description .btn {
         padding: 15px 10px;
