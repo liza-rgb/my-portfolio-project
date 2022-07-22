@@ -111,7 +111,7 @@ a {
 }
 
 .project-description {
-    padding: 120px 60px;
+    padding: 90px 60px;
 }
 
 .container {
@@ -248,5 +248,16 @@ footer .social-links a:hover {
         font-size: 13px;
         line-height: 16px;
         margin: 20px 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .project-description {
+        padding: 0 60px;
+    }
+
+    .btn-branding,
+    .btn-branding-outline {
+        padding: 15px 10px;
     }
 }
