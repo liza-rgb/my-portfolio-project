@@ -142,6 +142,16 @@ a {
     max-height: 40px;
 }
 
+.custom-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+}
+
+.custom-link:hover {
+    color: var(--primary-color);
+}
+
 nav {
     padding: 20px 0;
 }
@@ -171,16 +181,6 @@ nav li.active a {
 
 footer {
     margin: 60px 0 40px;
-}
-
-footer .email-link {
-    text-decoration: none;
-    color: #000;
-    font-size: 24px;
-}
-
-footer .email-link:hover {
-    color: var(--primary-color);
 }
 
 footer .social-links a {
