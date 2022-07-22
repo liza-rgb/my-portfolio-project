@@ -9,7 +9,7 @@ body.addEventListener('mousemove', (event) => {
     mouseY = event.clientY - mouseY;
 
     let radians = Math.atan2(mouseX, mouseY);
-    let rotationDegrees = -1 * radians * (180 / Math.PI) + 180;
+    let rotationDegrees = -1 * radians * (180 / Math.PI) + 90;
 
     eye.style.transform = `rotate(${rotationDegrees}deg)`;
 });
