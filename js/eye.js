@@ -1,3 +1,4 @@
+// enable movement of eye in the logo
 let body = document.querySelector("body");
 let eye = document.querySelector(".eye");
 
